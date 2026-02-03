@@ -1,0 +1,30 @@
+# ===== Python 虚拟环境（必留）=====
+venv/
+env/
+ENV/
+.venv/
+
+# ===== Python 缓存（必留）=====
+__pycache__/
+*.py[cod]
+*.so
+
+# ===== 环境变量文件（必留，防止泄露密钥）=====
+.env
+.env.local
+
+# ===== IDE / 编辑器 =====
+.vscode/          # ← 如果你有独享的调试配置，保留这行
+#.idea/            # PyCharm 用户需要
+#*.swp             # Vim 用户需要
+
+# ===== 如果你用 Jupyter =====
+.ipynb_checkpoints/
+
+# ===== 如果你用 macOS =====
+#.DS_Store
+
+# ===== 分发构建 =====
+dist/
+build/
+*.egg-info/
